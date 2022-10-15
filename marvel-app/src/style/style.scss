@@ -50,13 +50,39 @@ input::-webkit-inner-spin-button {
 .app {
     width: 1100px;
     margin: 0 auto;
-    padding: 50px 0 50px 0;
-    position: relative;
+    padding-bottom: 50px;
     .bg-decoration {
         position: absolute;
         right: -174px;
         bottom: -70px;
         z-index: -1;
+    }
+}
+
+.page404 {
+    display: flex;
+    justify-content: center;
+
+    .errorMеssage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+            font-size: 44px;
+
+            span {
+                color: #9F0013;
+            }
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 35px 0;
+        }
+
+        p {
+            font-size: 20px;
+        }
     }
 }
 
